@@ -665,7 +665,7 @@ foreach-collection-name:
   expression
 
 foreach-key:
-  expression '=>'
+  simple-variable '=>'
 
 foreach-value:
   '&'? expression
@@ -681,7 +681,7 @@ foreach-value:
    <i><a href="10-expressions.md#grammar-expression">expression</a></i>
 
 <i id="grammar-foreach-key">foreach-key:</i>
-   <i><a href="10-expressions.md#grammar-expression">expression</a></i>   =&gt;
+   <i><a href="10-expressions.md#grammar-simple-variable">simple-variable</a></i>   =&gt;
 
 <i id="grammar-foreach-value">foreach-value:</i>
    &amp;<sub>opt</sub>   <i><a href="10-expressions.md#grammar-expression">expression</a></i>

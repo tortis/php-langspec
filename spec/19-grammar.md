@@ -837,7 +837,7 @@ The grammar notation is described in [Grammars section](09-lexical-structure.md#
    <i><a href="#grammar-expression">expression</a></i>
 
 <i id="grammar-foreach-key">foreach-key:</i>
-   <i><a href="#grammar-expression">expression</a></i>   =&gt;
+   <i><a href="#grammar-simple-variable">simple-variable</a></i>   =&gt;
 
 <i id="grammar-foreach-value">foreach-value:</i>
    &amp;<sub>opt</sub>   <i><a href="#grammar-expression">expression</a></i>
